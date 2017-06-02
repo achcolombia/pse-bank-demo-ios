@@ -86,7 +86,7 @@ Antes de utilizar la biblioteca para realizar pagos, debes realizar la configura
 
 ## Invocación
 
-Esta aplicación responde a URLs del tipo `demobankb2a://automatonRequestId/<ID>`. El ID es el identificador del requerimiento de autómata.
+Esta aplicación está configurada para responder a URLs del tipo `demobankb2a://automatonRequestId/<ID>`. El ID es el identificador del requerimiento de autómata, el cual será entregado a khenshin para iniciar el pago.
 
 ## Respuesta
 
