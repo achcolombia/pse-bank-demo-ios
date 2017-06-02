@@ -165,12 +165,17 @@
 {
     NSString* fullURL = [url absoluteString];
     NSLog(@"url: %@", fullURL);
-    NSString* automatonRequestId = [fullURL substringFromIndex:[[url scheme] length]+3];
-
-    NSLog(@"id: %@", automatonRequestId);
+    
+    NSString* automatonRequestId = [url.path lastPathComponent];
+    NSLog(@"automatonRequestId: %@", automatonRequestId);
     
     
-    [KhenshinInterface startEngineWithAutomatonRequestId:automatonRequestId animated:YES userIdentifier:nil navigationController:nil success:^(NSURL *returnURL) { NSLog(@"Volver con ¡éxito!");} failure:^(NSURL *returnURL) {NSLog(@"Volver con fracaso :(");}];
+    [KhenshinInterface startEngineWithAutomatonRequestId:automatonRequestId
+                                                animated:YES
+                                          userIdentifier:nil
+                                    navigationController:nil
+                                                 success:^(NSURL *returnURL) { NSLog(@"Volver con ¡éxito!");}
+                                                 failure:^(NSURL *returnURL) {NSLog(@"Volver con fracaso :(");}];
 
     return YES;
 }
