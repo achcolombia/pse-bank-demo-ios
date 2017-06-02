@@ -9,12 +9,12 @@ Este repositorio es un ejemplo y documentación del proceso para integrar la tec
 
 El proceso de autorización del pago consta de dos partes, la primera ocurre en el registro PSE, donde se pide al usuario que utilice un correo electrónico enrrolado o que enrrole uno y la segunda parte ocurre en el banco autorizador.
 
-El banco que quiera implementar PSE embebido en su APP puede optar entre que la biblioteca implemente el proceso completo de autorización (registro y banco) o solo el registro, entregando posteriormente el control a la APP para completar la autorización.
+El banco que quiera implementar PSE embebido en su APP puede optar entre que la biblioteca implemente el proceso completo de autorización (registro y banco) o sólo el registro, entregando posteriormente el control a la APP para completar la autorización.
 
 # Manual de uso la biblioteca nativa Browser2app en iOS 
 
 Esta aplicación ha sido creada para demostrar la utilización de nuestra biblioteca khenshin.
-Para poder ejecutar esta aplicación es necesario que tengas acceso a nuestro repositorio privado: https://dev.khipu.com/nexus/content/repositories/browser2app
+Para poder ejecutar esta aplicación es necesario que tengas acceso a nuestro repositorio privado: https://bitbucket.org/khipu/khenshin-pod.git.
 
 Los pasos necesarios para utilizar la biblioteca nativa iOS para Browser2app son:
 
