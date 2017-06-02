@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19A96CAC7E5F0209C4319240 /* Pods_PSE_Demobank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6224550DA416F82BDF075603 /* Pods_PSE_Demobank.framework */; };
 		413CD3E41EE0BD2000EC5A38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CD3E31EE0BD2000EC5A38 /* main.m */; };
 		413CD3E71EE0BD2000EC5A38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CD3E61EE0BD2000EC5A38 /* AppDelegate.m */; };
 		413CD3EA1EE0BD2000EC5A38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CD3E91EE0BD2000EC5A38 /* ViewController.m */; };
@@ -15,6 +16,18 @@
 		413CD3F21EE0BD2000EC5A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413CD3F01EE0BD2000EC5A38 /* LaunchScreen.storyboard */; };
 		413CD3FD1EE0BD2000EC5A38 /* PSE_DemobankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CD3FC1EE0BD2000EC5A38 /* PSE_DemobankTests.m */; };
 		413CD4081EE0BD2000EC5A38 /* PSE_DemobankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CD4071EE0BD2000EC5A38 /* PSE_DemobankUITests.m */; };
+		417BF0741EE0C31C005DB022 /* logo_browser.png in Resources */ = {isa = PBXBuildFile; fileRef = 417BF0721EE0C31C005DB022 /* logo_browser.png */; };
+		417BF0751EE0C31C005DB022 /* logo_browser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417BF0731EE0C31C005DB022 /* logo_browser@2x.png */; };
+		417BF07D1EE1BFD0005DB022 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 417BF07A1EE1BFD0005DB022 /* UIImage+Utils.m */; };
+		417BF07E1EE1BFD0005DB022 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 417BF07C1EE1BFD0005DB022 /* UIViewController+Utils.m */; };
+		417BF0911EE1C002005DB022 /* PSEHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 417BF0821EE1C002005DB022 /* PSEHeader.m */; };
+		417BF0921EE1C002005DB022 /* PSEHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417BF0831EE1C002005DB022 /* PSEHeader.xib */; };
+		417BF0931EE1C002005DB022 /* Failure.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417BF0861EE1C002005DB022 /* Failure.xib */; };
+		417BF0941EE1C002005DB022 /* FailureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417BF0881EE1C002005DB022 /* FailureViewController.m */; };
+		417BF0951EE1C002005DB022 /* Success.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417BF08A1EE1C002005DB022 /* Success.xib */; };
+		417BF0961EE1C002005DB022 /* SuccessPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417BF08C1EE1C002005DB022 /* SuccessPaymentViewController.m */; };
+		417BF0971EE1C002005DB022 /* Warning.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417BF08E1EE1C002005DB022 /* Warning.xib */; };
+		417BF0981EE1C002005DB022 /* WarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417BF0901EE1C002005DB022 /* WarningViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B1C8887F27E5B04523ADFFC /* Pods-PSE Demobank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSE Demobank.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSE Demobank/Pods-PSE Demobank.release.xcconfig"; sourceTree = "<group>"; };
 		413CD3DF1EE0BD2000EC5A38 /* PSE Demobank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSE Demobank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		413CD3E31EE0BD2000EC5A38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		413CD3E51EE0BD2000EC5A38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,26 @@
 		413CD4031EE0BD2000EC5A38 /* PSE DemobankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PSE DemobankUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		413CD4071EE0BD2000EC5A38 /* PSE_DemobankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSE_DemobankUITests.m; sourceTree = "<group>"; };
 		413CD4091EE0BD2000EC5A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417BF0721EE0C31C005DB022 /* logo_browser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_browser.png; sourceTree = "<group>"; };
+		417BF0731EE0C31C005DB022 /* logo_browser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_browser@2x.png"; sourceTree = "<group>"; };
+		417BF0791EE1BFD0005DB022 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		417BF07A1EE1BFD0005DB022 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		417BF07B1EE1BFD0005DB022 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
+		417BF07C1EE1BFD0005DB022 /* UIViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
+		417BF0811EE1C002005DB022 /* PSEHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEHeader.h; sourceTree = "<group>"; };
+		417BF0821EE1C002005DB022 /* PSEHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEHeader.m; sourceTree = "<group>"; };
+		417BF0831EE1C002005DB022 /* PSEHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSEHeader.xib; sourceTree = "<group>"; };
+		417BF0861EE1C002005DB022 /* Failure.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Failure.xib; sourceTree = "<group>"; };
+		417BF0871EE1C002005DB022 /* FailureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailureViewController.h; sourceTree = "<group>"; };
+		417BF0881EE1C002005DB022 /* FailureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailureViewController.m; sourceTree = "<group>"; };
+		417BF08A1EE1C002005DB022 /* Success.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Success.xib; sourceTree = "<group>"; };
+		417BF08B1EE1C002005DB022 /* SuccessPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessPaymentViewController.h; sourceTree = "<group>"; };
+		417BF08C1EE1C002005DB022 /* SuccessPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessPaymentViewController.m; sourceTree = "<group>"; };
+		417BF08E1EE1C002005DB022 /* Warning.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Warning.xib; sourceTree = "<group>"; };
+		417BF08F1EE1C002005DB022 /* WarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarningViewController.h; sourceTree = "<group>"; };
+		417BF0901EE1C002005DB022 /* WarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarningViewController.m; sourceTree = "<group>"; };
+		546B1FA96A023B5064A3207D /* Pods-PSE Demobank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSE Demobank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSE Demobank/Pods-PSE Demobank.debug.xcconfig"; sourceTree = "<group>"; };
+		6224550DA416F82BDF075603 /* Pods_PSE_Demobank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSE_Demobank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A96CAC7E5F0209C4319240 /* Pods_PSE_Demobank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +113,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D1B6EC277FC5617F1A19255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6224550DA416F82BDF075603 /* Pods_PSE_Demobank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		413CD3D61EE0BD2000EC5A38 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +128,8 @@
 				413CD3FB1EE0BD2000EC5A38 /* PSE DemobankTests */,
 				413CD4061EE0BD2000EC5A38 /* PSE DemobankUITests */,
 				413CD3E01EE0BD2000EC5A38 /* Products */,
+				4D2FD457D282345B760F817F /* Pods */,
+				0D1B6EC277FC5617F1A19255 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +146,9 @@
 		413CD3E11EE0BD2000EC5A38 /* PSE Demobank */ = {
 			isa = PBXGroup;
 			children = (
+				417BF07F1EE1C002005DB022 /* CustomsViews */,
+				417BF0781EE1BFD0005DB022 /* Categories */,
+				417BF0711EE0C2FB005DB022 /* Images */,
 				413CD3E51EE0BD2000EC5A38 /* AppDelegate.h */,
 				413CD3E61EE0BD2000EC5A38 /* AppDelegate.m */,
 				413CD3E81EE0BD2000EC5A38 /* ViewController.h */,
@@ -140,6 +188,94 @@
 			path = "PSE DemobankUITests";
 			sourceTree = "<group>";
 		};
+		417BF0711EE0C2FB005DB022 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				417BF0721EE0C31C005DB022 /* logo_browser.png */,
+				417BF0731EE0C31C005DB022 /* logo_browser@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		417BF0781EE1BFD0005DB022 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				417BF0791EE1BFD0005DB022 /* UIImage+Utils.h */,
+				417BF07A1EE1BFD0005DB022 /* UIImage+Utils.m */,
+				417BF07B1EE1BFD0005DB022 /* UIViewController+Utils.h */,
+				417BF07C1EE1BFD0005DB022 /* UIViewController+Utils.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		417BF07F1EE1C002005DB022 /* CustomsViews */ = {
+			isa = PBXGroup;
+			children = (
+				417BF0801EE1C002005DB022 /* Header */,
+				417BF0841EE1C002005DB022 /* Payment Process */,
+			);
+			path = CustomsViews;
+			sourceTree = "<group>";
+		};
+		417BF0801EE1C002005DB022 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				417BF0811EE1C002005DB022 /* PSEHeader.h */,
+				417BF0821EE1C002005DB022 /* PSEHeader.m */,
+				417BF0831EE1C002005DB022 /* PSEHeader.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		417BF0841EE1C002005DB022 /* Payment Process */ = {
+			isa = PBXGroup;
+			children = (
+				417BF0851EE1C002005DB022 /* Failure */,
+				417BF0891EE1C002005DB022 /* Success */,
+				417BF08D1EE1C002005DB022 /* Warning */,
+			);
+			path = "Payment Process";
+			sourceTree = "<group>";
+		};
+		417BF0851EE1C002005DB022 /* Failure */ = {
+			isa = PBXGroup;
+			children = (
+				417BF0861EE1C002005DB022 /* Failure.xib */,
+				417BF0871EE1C002005DB022 /* FailureViewController.h */,
+				417BF0881EE1C002005DB022 /* FailureViewController.m */,
+			);
+			path = Failure;
+			sourceTree = "<group>";
+		};
+		417BF0891EE1C002005DB022 /* Success */ = {
+			isa = PBXGroup;
+			children = (
+				417BF08A1EE1C002005DB022 /* Success.xib */,
+				417BF08B1EE1C002005DB022 /* SuccessPaymentViewController.h */,
+				417BF08C1EE1C002005DB022 /* SuccessPaymentViewController.m */,
+			);
+			path = Success;
+			sourceTree = "<group>";
+		};
+		417BF08D1EE1C002005DB022 /* Warning */ = {
+			isa = PBXGroup;
+			children = (
+				417BF08E1EE1C002005DB022 /* Warning.xib */,
+				417BF08F1EE1C002005DB022 /* WarningViewController.h */,
+				417BF0901EE1C002005DB022 /* WarningViewController.m */,
+			);
+			path = Warning;
+			sourceTree = "<group>";
+		};
+		4D2FD457D282345B760F817F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				546B1FA96A023B5064A3207D /* Pods-PSE Demobank.debug.xcconfig */,
+				3B1C8887F27E5B04523ADFFC /* Pods-PSE Demobank.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 413CD40C1EE0BD2000EC5A38 /* Build configuration list for PBXNativeTarget "PSE Demobank" */;
 			buildPhases = (
+				4B91015B86D16E6E590D3AF4 /* [CP] Check Pods Manifest.lock */,
 				413CD3DB1EE0BD2000EC5A38 /* Sources */,
 				413CD3DC1EE0BD2000EC5A38 /* Frameworks */,
 				413CD3DD1EE0BD2000EC5A38 /* Resources */,
+				DFF95D812BE24E79217D51A0 /* [CP] Embed Pods Frameworks */,
+				BE3393E38F082FAF1A6F9E98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +388,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417BF0751EE0C31C005DB022 /* logo_browser@2x.png in Resources */,
 				413CD3F21EE0BD2000EC5A38 /* LaunchScreen.storyboard in Resources */,
+				417BF0971EE1C002005DB022 /* Warning.xib in Resources */,
 				413CD3EF1EE0BD2000EC5A38 /* Assets.xcassets in Resources */,
+				417BF0931EE1C002005DB022 /* Failure.xib in Resources */,
 				413CD3ED1EE0BD2000EC5A38 /* Main.storyboard in Resources */,
+				417BF0951EE1C002005DB022 /* Success.xib in Resources */,
+				417BF0741EE0C31C005DB022 /* logo_browser.png in Resources */,
+				417BF0921EE1C002005DB022 /* PSEHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +416,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B91015B86D16E6E590D3AF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE3393E38F082FAF1A6F9E98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PSE Demobank/Pods-PSE Demobank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFF95D812BE24E79217D51A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PSE Demobank/Pods-PSE Demobank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		413CD3DB1EE0BD2000EC5A38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,7 +471,13 @@
 			files = (
 				413CD3EA1EE0BD2000EC5A38 /* ViewController.m in Sources */,
 				413CD3E71EE0BD2000EC5A38 /* AppDelegate.m in Sources */,
+				417BF0981EE1C002005DB022 /* WarningViewController.m in Sources */,
+				417BF0941EE1C002005DB022 /* FailureViewController.m in Sources */,
 				413CD3E41EE0BD2000EC5A38 /* main.m in Sources */,
+				417BF0911EE1C002005DB022 /* PSEHeader.m in Sources */,
+				417BF07E1EE1BFD0005DB022 /* UIViewController+Utils.m in Sources */,
+				417BF07D1EE1BFD0005DB022 /* UIImage+Utils.m in Sources */,
+				417BF0961EE1C002005DB022 /* SuccessPaymentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +626,7 @@
 		};
 		413CD40D1EE0BD2000EC5A38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546B1FA96A023B5064A3207D /* Pods-PSE Demobank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2X63E3W773;
@@ -439,6 +639,7 @@
 		};
 		413CD40E1EE0BD2000EC5A38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1C8887F27E5B04523ADFFC /* Pods-PSE Demobank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2X63E3W773;
@@ -518,6 +719,7 @@
 				413CD40E1EE0BD2000EC5A38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		413CD40F1EE0BD2000EC5A38 /* Build configuration list for PBXNativeTarget "PSE DemobankTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +728,7 @@
 				413CD4111EE0BD2000EC5A38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		413CD4121EE0BD2000EC5A38 /* Build configuration list for PBXNativeTarget "PSE DemobankUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +737,7 @@
 				413CD4141EE0BD2000EC5A38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
